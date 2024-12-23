@@ -132,7 +132,7 @@ export const Home = () => (
       className="w-full h-96 md:w-1/2 rounded-xl border-2 border-teal-400 mb-8 md:mb-0 md:mr-8 object-cover"
     />
     <div className="text-center md:text-left">
-      <h3 className="text-5xl font-light text-teal-300 mb-4">Chat-IIITA</h3>
+      <h3 className="text-4xl font-extralight text-teal-400 mb-4">Chat-IIITA : A Query Chatbot</h3>
       <p className="text-gray-300 text-lg font-extralight leading-relaxed">
       <span className='font-semibold'>Chat-IIITA</span> is an AI-powered chatbot designed to assist IIITA students, prospective students, and faculty members. 
         Built with FastAPI, LangChain, and MERN Stack, it provides instant responses to academic queries, administrative processes, 
@@ -163,17 +163,16 @@ export const Home = () => (
   </div>
 
   {/* Project 2 */}
-      <div className="flex flex-col md:flex-row-reverse items-center bg-gradient-to-r from-gray-900 to-gray-800 p-8 rounded-3xl shadow-xl">
+      <div className="flex flex-col md:flex-row-reverse items-center bg-gradient-to-r from-gray-800 to-gray-900 p-8 rounded-3xl shadow-xl">
         <img 
-          src="portfolio.jpeg" 
+          src="testiflow.jpeg" 
           alt="Project 2" 
           className="w-full md:w-1/2 h-96 rounded-2xl border-2 border-pink-400 mb-8 md:mb-0 md:ml-8 object-cover"
         />
         <div className="text-center md:text-left">
-          <h3 className="text-5xl font-light text-pink-300 mb-4">Portfolio Project</h3>
-          <p className="text-gray-300 text-lg leading-relaxed">
-            It is my portfolio webiste made using React and Tailwind CSS. It highlights the key features and technologies used in the project. 
-            This project demonstrates the use of animations, interactive elements, and modern design principles.
+          <h3 className="text-4xl font-extralight text-pink-500 mb-4">TestiFlow : Where Every Voice Counts </h3>
+          <p className="text-gray-300 text-lg font-extralight leading-relaxed">
+          <span className='font-semibold'>TestiFlow</span> is a streamlined platform for collecting, managing, and analyzing user testimonials with ease. It integrates Google authentication for secure and seamless user onboarding, allowing users to submit feedback through a dynamic and user-friendly interface. The application features a robust backend built with <span className='font-semibold'>Node.js, Express, and MongoDB</span>, while the <span className='font-semibold'>React</span> frontend ensures a responsive and interactive user experience. 
           </p>
           <div className="mt-6">
             <a 
